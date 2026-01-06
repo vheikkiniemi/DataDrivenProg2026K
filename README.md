@@ -36,8 +36,7 @@ You will:
 * build a **working application prototype**
 * improve it step by step
 
-Mistakes are expected.
-Trying things out is encouraged.
+Mistakes are expected. Trying things out is encouraged.
 
 ---
 
@@ -51,8 +50,7 @@ Trying things out is encouraged.
 | Fixed instructions | Iterative exploration      |
 | One final exam     | Continuous development     |
 
-There is **no heavy theory**, **no long lectures**, and **no final written exam**.
-Learning happens by **doing and reflecting**.
+There is **no heavy theory**, **no long lectures**, and **no final written exam**. Learning happens by **doing and reflecting**.
 
 ---
 
@@ -106,8 +104,7 @@ You will use it because:
 * it provides helpful feedback while you work
 * it makes experimenting and learning easier
 
-You do **not** need prior experience with VS Code.
-You will learn only what is necessary to work effectively on your project.
+You do **not** need prior experience with VS Code. You will learn only what is necessary to work effectively on your project.
 
 ---
 
