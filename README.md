@@ -1,4 +1,4 @@
-# 📘 Course Introduction: Data-Driven Programming (Vibe Coding)
+# 📘 Course Introduction: Data-Driven Programming
 
 ## What is this course about?
 
@@ -18,7 +18,7 @@ The goal is to help you **understand and use data through applications**.
 
 ## 🌊 What is Vibe Coding?
 
-This course is built around **Vibe Coding**, which means:
+This course is built around **[Vibe Coding](https://learn.microsoft.com/en-us/training/modules/introduction-vibe-coding/)**, which means:
 
 > You learn by *experimenting, exploring, and building* — not by memorizing syntax.
 
@@ -56,7 +56,7 @@ There is **no heavy theory**, **no long lectures**, and **no final written exam*
 
 ## 👥 Group-Based Learning
 
-All project work is done in **small groups (2–4 students)**.
+All project work is done in **small groups (2–3 students)**.
 
 Working in groups allows you to:
 
