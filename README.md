@@ -73,9 +73,9 @@ You are **not expected to know programming beforehand**.
 
 You will work with:
 
-* **Python** (only the basics needed)
-* **Streamlit** for building applications
-* **SQLite** for simple databases
+* **[Python](https://www.python.org/)** (only the basics needed)
+* **[Streamlit](https://streamlit.io/)** for building applications
+* **[SQLite](https://sqlite.org/)** for simple databases
 
 All tools are chosen because they:
 
@@ -87,7 +87,7 @@ All tools are chosen because they:
 
 ## 💻 Development Tools: Visual Studio Code & GitHub
 
-In this course, you will use **Visual Studio Code (VS Code)** and **GitHub** as part of your project work.
+In this course, you will use **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)** and **[GitHub](https://github.com/)** as part of your project work.
 
 These tools are not chosen randomly — they are **industry-standard tools** used widely in modern software and data-related work.
 
