@@ -286,6 +286,25 @@ By estimating hourly electricity consumption in advance, the application enables
 
 ---
 
+## What I need
+
+https://aina.elenia.fi/ -> Consumption history
+https://www.ilmatieteenlaitos.fi/havaintojen-lataus -> Weather history
+https://www.ilmatieteenlaitos.fi/avoin-data-avattavat-aineistot -> Weather forecast
+
+```
+curl "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=getFeature&storedquery_id=fmi::forecast::harmonie::surface::point::timevaluepair&place=hameenlinna&starttime=2026-02-12T00:00:00Z&endtime=2026-02-13T00:00:00Z&timestep=60&parameters=Temperature,WindSpeedMS,PrecipitationAmount,TotalCloudCover" \
+-o hameenlinna_forecast_tomorrow.xml
+```
+
+https://dashboard.elering.ee/assets/swagger-ui/index.html -> Electricity price
+
+```
+curl -L -o ee_prices.csv \
+  "https://dashboard.elering.ee/api/nps/price/csv?fields=ee&start=2026-02-03T00:00:00Z&end=2026-02-03T23:59:59.999Z"
+```
+
+
 ## Files you have
 
 ### 1) `consumption_actual.csv` (historical actuals)
@@ -566,8 +585,8 @@ if __name__ == "__main__":
 
 ## 🧠 What we learn
 
-✅ CSV parsing and writing
-✅ joining data sources using a shared dimension (temperature)
-✅ “nearest neighbor” idea (temperature similarity)
-✅ fallback logic and robust data handling
-✅ producing a dataset suitable for later visualization / ML
+✅ CSV parsing and writing  
+✅ joining data sources using a shared dimension (temperature)  
+✅ “nearest neighbor” idea (temperature similarity)  
+✅ fallback logic and robust data handling  
+✅ producing a dataset suitable for later visualization / ML  
