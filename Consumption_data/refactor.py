@@ -1,7 +1,7 @@
 import pandas as pd
 
-INPUT_FILE = "2020.csv"
-OUTPUT_FILE = "2020_refactored.csv"
+INPUT_FILE = "2021.csv"
+OUTPUT_FILE = "2021_refactored.csv"
 
 df = pd.read_csv(INPUT_FILE, sep=";", decimal=",")
 
@@ -12,9 +12,9 @@ df["Time period"] = pd.to_datetime(
     errors="coerce"
 )
 
-# --- 2. Insert year 2020 ---
+# --- 2. Insert year 2021 ---
 df["Time period"] = df["Time period"].apply(
-    lambda t: t.replace(year=2020) if pd.notnull(t) else t
+    lambda t: t.replace(year=2021) if pd.notnull(t) else t
 )
 
 # --- 3. Apply timezone BEFORE formatting ---
