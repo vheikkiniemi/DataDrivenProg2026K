@@ -288,9 +288,9 @@ By estimating hourly electricity consumption in advance, the application enables
 
 ## What I need
 
-https://aina.elenia.fi/ -> Consumption history
-https://www.ilmatieteenlaitos.fi/havaintojen-lataus -> Weather history
-https://www.ilmatieteenlaitos.fi/avoin-data-avattavat-aineistot -> Weather forecast
+https://aina.elenia.fi/ -> Consumption history  
+https://www.ilmatieteenlaitos.fi/havaintojen-lataus -> Weather history  
+https://www.ilmatieteenlaitos.fi/avoin-data-avattavat-aineistot -> Weather forecast  
 
 ```
 curl "https://opendata.fmi.fi/wfs?service=WFS&version=2.0.0&request=getFeature&storedquery_id=fmi::forecast::harmonie::surface::point::timevaluepair&place=hameenlinna&starttime=2026-02-12T00:00:00Z&endtime=2026-02-13T00:00:00Z&timestep=60&parameters=Temperature,WindSpeedMS,PrecipitationAmount,TotalCloudCover" \
